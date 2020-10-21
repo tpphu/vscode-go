@@ -335,7 +335,7 @@ export async function goTest(testconfig: TestConfig): Promise<boolean> {
 
 				const outTargets = args.slice(0);
 				if (targets.length > 5) {
-						outTargets.push('<long arguments omitted>');
+					outTargets.push('<long arguments omitted>');
 				} else {
 					outTargets.push(...targets);
 				}
